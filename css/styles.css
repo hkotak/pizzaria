@@ -1,7 +1,48 @@
+
+
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.grouponcdn.com/deal/8DDtq5XRzVnLXEUnPHPd/p2-2048x1229/v1/c700x420.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/4f/6d/05/4f6d052bb1b26150115888ea06d4c106.jpg);
+    background-color: black;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://c2.staticflickr.com/6/5151/5833421934_6de3fcff8c_b.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: center;
+}
+
+/* #slogan{
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color:black;
+    margin: 0px;
+    text-align: center !important;
+    display: table-cell;
+    vertical-align: center; 
+} */
+
 body {
     color: white;
     background-color: black;
-    border: 10px solid transparent;
+    border: 15px solid;
     padding: 15px;
     border-image: url(https://orig00.deviantart.net/f51e/f/2015/041/e/4/cherry_blossom_twitter_header_by_taemeow-d8hghub.png) 30 round;
 }
@@ -20,11 +61,11 @@ body {
 }
 .tagline {
     text-align: center;
-    color: white;
+    color: whitesmoke;
     font-family: 'Pacifico', cursive;
     font-size: 100px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-top: 300px;
+    margin-bottom: 5px;
     background-image: url(https://i.pinimg.com/originals/54/44/6a/54446afe25ec625eb8f7a9f52d9641e8.jpg);
     background-size: 300px;
 }
@@ -52,6 +93,7 @@ a:visited {
 a:hover {
     color: pink;
     text-decoration: underline;
+    transition: all 1.5s ease;
 }
 
 .sectionTitle {
@@ -64,7 +106,12 @@ a:hover {
     font-family: 'Russo One', sans-serif;
     font-size: 25px;
 }
-
+#open-late  {
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-right: 0px;
+}
 #menu {
     font-family: 'Russo One', sans-serif;
 }
@@ -93,30 +140,34 @@ a:hover {
 }
 #subscribe {
     font-family: 'Russo One', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-/* #visit li {
-    display: inline;
-} */
+#visit {
+    font-family: 'Russo One', sans-serif;
+    text-align: center !important;
+    font-size: 25px;
+    vertical-align: center;
+    margin-top: 200px;
+    color: black;
+    font-weight: 800;
+}
 
 footer {
     text-align: center;
     color: black;
     background-image: url(https://orig00.deviantart.net/f51e/f/2015/041/e/4/cherry_blossom_twitter_header_by_taemeow-d8hghub.png);
     font-family: 'Pacifico', cursive;
+    font-size: 20px;
 }
 
 footer p {
     margin: 0;
 }
 
-/* .image {
-    max-width: 10px;
-    max-width: 10px;
-    float: right;
-    margin-left: 65%;
-} */
+
 .fa {
     padding: 15px;
     font-size: 50px;
@@ -129,50 +180,17 @@ footer p {
   
   .fa-facebook {
     background: #3B5998;
-    color: white;
+    color: pink;
   }
   
 
   .fa-instagram {
-    background: #125688;
-    color: white;
+    background: #3B5998;
+    color: pink;
   }
   
 
 
 
 
-#box1{
-    height: 100vh;
-    width: 100%;
-    background-image: url(https://pantograph0.goldbely.com/cfill-h267-w575/uploads/collection/main_image/210/pizza.56599b52f02ac502703bd635d8513fea.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-}
-#box2{
-    height: 100vh;
-    width: 100%;
-    background-image: url(https://img.grouponcdn.com/deal/8DDtq5XRzVnLXEUnPHPd/p2-2048x1229/v1/c700x420.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-}
-#box3{
-    height: 100vh;
-    width: 100%;
-    background-image: url(i3.jpg);
-    background-size: cover;
-    display: table;
-    background-attachment: fixed;
-}
 
-/* h1{
-    font-family: arial black;
-    font-size: 50px;
-    color:white;
-    margin: 0px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}  */
